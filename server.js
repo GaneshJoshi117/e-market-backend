@@ -14,7 +14,7 @@ mongoose
 		useUnifiedTopology: true,
 	})
 	.then((con) => {
-		console.log('connection successfully established', con);
+		console.log('connection successfully established');
 	});
 
 app.listen(process.env.PORT, () => {
